@@ -26,7 +26,7 @@ on:
         default: "https://api.prod.app.gruntwork.io/api/v1"
       pipelines_binary_url:
         type: string
-        default: ""
+        default: "https://gruntwork-pipelines-binary-test-bucket.s3.us-east-2.amazonaws.com/pipelines"
         description: "Override where we fetch pipelines from, used for internal testing"
       pipelines_cli_version:
         type: string
